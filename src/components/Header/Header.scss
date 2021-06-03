@@ -1,0 +1,20 @@
+.header-wrapper {
+    background-color: #5865e0;
+    position: relative;
+    .header-items {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .header-curve {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        border-bottom-left-radius: 50px;
+        background-color: #5865e0;
+        z-index: 1;
+    }
+}

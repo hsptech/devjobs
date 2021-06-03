@@ -1,0 +1,16 @@
+.input-field-wrapper {
+    display: flex;
+    .icon {
+        padding: 1rem;
+        background-color: white;
+    }
+    input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        background-color: #ffffff;
+        outline: none;
+        width: 100%;
+    }
+}

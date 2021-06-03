@@ -1,0 +1,23 @@
+.filter-section-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    .filter-company,
+    .filter-location {
+        width: 33%;
+    }
+    .filter-search {
+        background-color: white;
+        height: 100%;
+        width: 33%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .filter-search-btn {
+            padding: 0.7rem 1.5rem;
+            background-color: #5865e0;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
