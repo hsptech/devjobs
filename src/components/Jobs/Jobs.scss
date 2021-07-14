@@ -1,5 +1,7 @@
 .jobs-wrapper-main {
     z-index: 2;
+    position: relative;
+    top: 25px;
     .jobs-filter {
         margin-bottom: 50px;
     }

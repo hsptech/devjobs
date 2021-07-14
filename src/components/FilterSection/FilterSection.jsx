@@ -18,7 +18,8 @@ function FilterSection() {
             />
             <div className="filter-search">
                 <span>
-                    <input type="checkbox" /> Full Time Only
+                    <input type="checkbox" />{' '}
+                    <span className="">Full Time Only</span>
                 </span>
                 <button className="filter-search-btn">Search</button>
             </div>

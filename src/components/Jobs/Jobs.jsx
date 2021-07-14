@@ -24,7 +24,7 @@ function Jobs() {
                         return <JobInfo info={job} key={job.id} />;
                     })
                 ) : (
-                    <div>empty</div>
+                    <div>No Jobs available.</div>
                 )}
             </div>
         </div>

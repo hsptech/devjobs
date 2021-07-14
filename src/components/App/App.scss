@@ -1,12 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     background-color: #f5f6f8;
     .App {
         .routes-wrapper {
-            width: 70%;
-            margin-left: 15%;
-            margin-left: 15%;
+            width: 80%;
+            margin: auto;
         }
     }
     .dull-text {

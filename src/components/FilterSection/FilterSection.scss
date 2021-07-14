@@ -13,11 +13,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        > span {
+            letter-spacing: 0;
+        }
         .filter-search-btn {
             padding: 0.7rem 1.5rem;
             background-color: #5865e0;
             border: none;
             border-radius: 5px;
+            color: white;
         }
     }
 }
